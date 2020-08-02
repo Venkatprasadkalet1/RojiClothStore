@@ -3,6 +3,9 @@
 ![](images/aa.jpg)
 ![](images/amd.jpg)
 ![](images/abc1.jpg)
-![](images/aa.jpg)
+![](images/ami.jpg)
+![](images/amii.jpg)
+![](images/clothbann4.jpg)
+
 
 
