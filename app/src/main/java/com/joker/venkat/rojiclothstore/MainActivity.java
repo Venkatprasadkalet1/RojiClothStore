@@ -4,7 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
+import com.google.android.youtube.player.YouTubeBaseActivity;
+import com.google.android.youtube.player.YouTubePlayerView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -20,15 +21,17 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.ViewFlipper;
 
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     ViewFlipper v_flipper;
     ListView mListView;
     int[] images = {R.drawable.ami,R.drawable.amii,R.drawable.amiii,R.drawable.amiiii,R.drawable.amiiiii,R.drawable.amo,
-            R.drawable.amoo,R.drawable.amu,R.drawable.amuu,R.drawable.amd};
+            R.drawable.amoo,R.drawable.amu,R.drawable.amuu,R.drawable.amd
+            ,R.drawable.g1,R.drawable.g2,R.drawable.g3,R.drawable.g4
+            ,R.drawable.g5,R.drawable.g6,R.drawable.g7,R.drawable.g9};
     private CardView third,fourth,fifth,sixth;
 
-    private Button popupBtn;
-
+    private Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -141,6 +144,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.action_webpage:
                 startActivity(new Intent(MainActivity.this,Webpage.class));
                 break;
+            case R.id.action_video:
+                startActivity(new Intent(MainActivity.this,Video.class));
+                break;
         }
 
         return super.onOptionsItemSelected(item);
@@ -158,3 +164,4 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 }
+

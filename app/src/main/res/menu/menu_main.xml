@@ -12,5 +12,11 @@
         android:orderInCategory="100"
         android:title="Website"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_video"
+        android:orderInCategory="100"
+        android:title="Video"
+        app:showAsAction="never" />
+
 
 </menu>
