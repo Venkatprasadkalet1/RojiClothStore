@@ -1,4 +1,4 @@
-# Roji_Cloth_Store..1
+# Roji_Cloth_Store.
 
 A variery cloth store 
 
