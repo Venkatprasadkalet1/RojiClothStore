@@ -1,4 +1,4 @@
-# Roji_Cloth_Store
+# Roji_Cloth_Store.
 
 A variery cloth store 
 
@@ -11,4 +11,3 @@ A variery cloth store
 ![](images/clothbann4.jpg)
 
 #Hectoberfest2023
-
